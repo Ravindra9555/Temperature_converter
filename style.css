@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  'Roboto Mono', monospace;
+    font-size: 30px;
+    font-weight: 400;
+}
+.container{
+max-width:450px;
+max-height:300px;
+background-color: white;
+align-items: center;
+border-radius: 30px;
+padding:30px;
+box-shadow: 0 20px 30px black;
+}
+.cel{
+padding: 10px ;
+}
+.fah{
+    padding: 10px;
+}
+#celsius{
+    padding-left: 10px;
+}
+input{
+    border-radius: 10px;
+    border: 2px solid rgb(91, 44, 111 );
+}
+input#celsius{
+    height: 30px;
+    padding-left: 10px;
+}
+input#fahrenhiet{
+    height: 30px;
+    padding-left: 10px;
+
+}
+label#celsi{
+    padding-right: 43px;
+}
