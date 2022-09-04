@@ -29,6 +29,7 @@ padding: 10px ;
 .fah{
     padding: 10px;
 }
+
 #celsius{
     padding-left: 10px;
 }
@@ -43,8 +44,16 @@ input#celsius{
 input#fahrenhiet{
     height: 30px;
     padding-left: 10px;
-
+    
 }
 label#celsi{
-    padding-right: 43px;
+    padding-right: 53px;
+}
+
+input#kelvin{
+    height: 30px;
+    padding-left: 10px;
+}
+label#kel{
+    padding-right: 73px;
 }
